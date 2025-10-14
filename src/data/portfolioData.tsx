@@ -1,60 +1,5 @@
-interface PersonalInfo {
-  name: string;
-  title: string;
-  tagline: string;
-  bio: string;
-  email: string;
-  github: string;
-  linkedin: string;
-  location: string;
-}
+import type { PortfolioType } from "../types/ProjectType";
 
-interface AboutInfo {
-  title: string;
-  description: string;
-  highlights: string[];
-}
-
-interface Skill {
-  name: string;
-  level: number;
-  category: string;
-}
-
-interface Project {
-  id: number;
-  title: string;
-  description: string;
-  technologies: string[];
-  github: string;
-  live: string;
-  featured: boolean;
-}
-
-interface Experience {
-  id: number;
-  title: string;
-  company: string;
-  location: string;
-  period: string;
-  description: string[];
-}
-
-interface Education {
-  degree: string;
-  institution: string;
-  period: string;
-  description: string;
-}
-
-export interface PortfolioType {
-  personal: PersonalInfo;
-  about: AboutInfo;
-  skills: Skill[];
-  projects: Project[];
-  experience: Experience[];
-  education: Education[];
-}
 
 export const portfolioData : PortfolioType= {
     personal: {
@@ -98,67 +43,31 @@ export const portfolioData : PortfolioType= {
     projects: [
         {
             id: 1,
-            title: "E-Commerce Platform",
-            description: "A full-featured e-commerce platform with shopping cart, payment integration, and admin dashboard. Built with React, Node.js, and MongoDB.",
-            technologies: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
-            github: "https://github.com/sumit5213/ecommerce-platform",
-            live: "https://demo-ecommerce.example.com",
+            title: "Paytm inspired webapp",
+            description: "Created a Full stack dummy payment application inspired by Paytm using Turborepo setup with multiple nextjs apps.",
+            technologies: ["Nextjs", "Typescript", "Turborepo", "PostgreSQL"],
+            github: "https://github.com/krishna4698/MonoreposPaytm",
+            live: "https://paytm.com",
             featured: true
         },
         {
             id: 2,
-            title: "Task Management App",
-            description: "Collaborative task management application with real-time updates, team collaboration features, and progress tracking.",
-            technologies: ["React", "Express", "Socket.io", "PostgreSQL", "Redux"],
-            github: "https://github.com/sumit5213/task-manager",
-            live: "https://taskmanager.example.com",
+            title: "Real Time Ai voice Agent Interview Platform",
+            description: "Built a full stack interview preparation web using Nextjs enabling users to stimlte real time interviews wirh AI voice agents via Vapi.",
+            technologies: ["Nextjs", "Typescript", "Vapi ai Agent", "Firebase"],
+            github: "https://github.com/krishna4698/InterviewerAgent",
+            live: "",
             featured: true
         },
         {
             id: 3,
-            title: "Weather Dashboard",
-            description: "Real-time weather dashboard with location-based forecasts, interactive maps, and weather alerts using OpenWeather API.",
-            technologies: ["React", "OpenWeather API", "Chart.js", "Material-UI"],
-            github: "https://github.com/sumit5213/weather-dashboard",
-            live: "https://weather.example.com",
+            title: "Portfolio Website",
+            description: "My own Portfolio website built using React, Typescript, Tailwindcss",
+            technologies: ["React", "Typescript", "Tailwindcss",],
+            github: "https://github.com/krishna4698/Portfolio",
+            live: "/",
             featured: false
-        },
-        {
-            id: 4,
-            title: "Blog Platform",
-            description: "A modern blogging platform with markdown support, syntax highlighting for code snippets, and SEO optimization.",
-            technologies: ["Next.js", "Node.js", "MongoDB", "MDX", "Vercel"],
-            github: "https://github.com/sumit5213/blog-platform",
-            live: "https://blog.example.com",
-            featured: false
-        },
-        {
-            id: 5,
-            title: "Portfolio Generator",
-            description: "An automated portfolio generator that creates beautiful portfolio websites from JSON data with multiple themes.",
-            technologies: ["React", "Gatsby", "GraphQL", "Styled Components"],
-            github: "https://github.com/sumit5213/portfolio-generator",
-            live: "https://portfolio-gen.example.com",
-            featured: false
-        },
-        {
-            id: 6,
-            title: "Chat Application",
-            description: "Real-time chat application with private messaging, group chats, and media sharing capabilities.",
-            technologies: ["React", "Node.js", "Socket.io", "Redis", "AWS S3"],
-            github: "https://github.com/sumit5213/chat-app",
-            live: "https://chat.example.com",
-            featured: true
-        },
-        {
-            id: 6,
-            title: "Chat Application",
-            description: "Real-time chat application with private messaging, group chats, and media sharing capabilities.",
-            technologies: ["React", "Node.js", "Socket.io", "Redis", "AWS S3"],
-            github: "https://github.com/sumit5213/chat-app",
-            live: "https://chat.example.com",
-            featured: true
-        },
+        }
 
     ],
 

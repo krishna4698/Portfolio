@@ -1,6 +1,7 @@
 import { portfolioData } from "../data/portfolioData";
-
-const { projects } = portfolioData;
+import type { ProjectType } from "../types/ProjectType";
+// const { projects } = portfolioData;
+const projects : ProjectType[]=portfolioData.projects;
 
 const Project = () => {
   return (
