@@ -3,7 +3,7 @@
 import './App.css'
 import Navbar from './components/Navbar'
 import Project from './components/Project'
-import About from './components/About'
+// import About from './components/About'
 import Footer from './components/Footer'
 import Hero from './components/Hero'
 import Skill from './components/Skill'

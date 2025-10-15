@@ -5,7 +5,7 @@ import { portfolioData } from "../data/portfolioData";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const { personal , projects} = portfolioData;
+  const { personal } = portfolioData;
 
   useEffect(() => {
     const handleScroll = () => {

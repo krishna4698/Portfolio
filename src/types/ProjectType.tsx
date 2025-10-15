@@ -50,7 +50,7 @@ interface Education {
 export interface PortfolioType {
   personal: PersonalInfo;
   about: AboutInfo;
-  skills: Skill[];
+  skills: SkillType[];
   projects: ProjectType[];
   experience: Experience[];
   education: Education[];
