@@ -3,13 +3,13 @@ import type { PortfolioType } from "../types/ProjectType";
 
 export const portfolioData : PortfolioType= {
     personal: {
-        name: "Sumit Joshi",
+        name: "Krishna Joshi",
         title: "Full-Stack Developer",
         tagline: "Building scalable web applications with modern technologies",
         bio: "Passionate Full-Stack Developer with expertise in React, Node.js, and cloud technologies. I love creating elegant solutions to complex problems and building products that make a difference.",
-        email: "sumitjoshi9987@gmail.com",
-        github: "https://github.com/sumit5213",
-        linkedin: "https://www.linkedin.com/in/sumitjoshi52/",
+        email: "krishnajoshi4698@gmail.com",
+        github: "https://github.com/krishna4698",
+        linkedin: "",
         location: "India"
     },
 
