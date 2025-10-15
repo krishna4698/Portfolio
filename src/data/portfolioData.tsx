@@ -27,12 +27,15 @@ export const portfolioData : PortfolioType= {
 
     skills: [
         { name: "React.js", level: 90, category: "Frontend" },
-        { name: "JavaScript/TypeScript", level: 88, category: "Languages" },
+        { name: "Next.js", level: 90, category: "Frontend" },
+        { name: "JavaScript", level: 88, category: "Languages" },
+        { name: "TypeScript", level: 88, category: "Languages" },
         { name: "Node.js", level: 85, category: "Backend" },
         { name: "Express.js", level: 82, category: "Backend" },
         { name: "MongoDB", level: 80, category: "Database" },
         { name: "PostgreSQL", level: 75, category: "Database" },
-        { name: "HTML/CSS", level: 92, category: "Frontend" },
+        { name: "CSS", level: 92, category: "Frontend" },
+        { name: "HTML", level: 92, category: "Frontend" },
         { name: "Tailwind CSS", level: 88, category: "Frontend" },
         { name: "Git/GitHub", level: 85, category: "Tools" },
         { name: "REST APIs", level: 87, category: "Backend" },

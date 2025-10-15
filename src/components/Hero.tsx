@@ -96,13 +96,13 @@ const Hero = () => {
             href="#projects" 
             className="px-8 py-4 bg-cyan-500 hover:bg-cyan-600 text-white font-semibold rounded-full transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/50"
           >
-            View My Work
+            My Projects
           </a>
           <a 
-            href="#contact" 
+            href="#skill" 
             className="px-8 py-4 bg-transparent hover:bg-gray-800/50 text-white font-semibold rounded-full transition-all duration-300 hover:scale-105 border border-gray-600 hover:border-cyan-500"
           >
-            Let's Work Together
+            Programming Skills
           </a>
         </div>
       </div>

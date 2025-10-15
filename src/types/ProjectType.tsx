@@ -15,7 +15,7 @@ interface AboutInfo {
   highlights: string[];
 }
 
-interface Skill {
+export interface SkillType {
   name: string;
   level: number;
   category: string;

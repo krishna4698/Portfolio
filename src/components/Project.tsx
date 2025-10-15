@@ -5,13 +5,13 @@ const projects : ProjectType[]=portfolioData.projects;
 
 const Project = () => {
   return (
-    <section className="py-16 bg-gray-50">
+    <section id="projects" className="py-16 bg-black">
       <div className="max-w-6xl mx-auto px-6">
-        <h2 className="text-3xl font-bold text-gray-900 mb-10 text-center">
+        <h2 className="text-3xl font-bold text-gray-300 mb-10 text-center bg-black">
           🚀 My Projects
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 bg-black">
           {projects.map((a) => (
             <div
               key={a.id}

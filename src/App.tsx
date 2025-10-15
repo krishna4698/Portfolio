@@ -6,6 +6,7 @@ import Project from './components/Project'
 import About from './components/About'
 import Footer from './components/Footer'
 import Hero from './components/Hero'
+import Skill from './components/Skill'
 
 function App() {
   
@@ -16,6 +17,7 @@ function App() {
         <Hero/>
        {/* <About/> */}
       <Project/>
+      <Skill/>
       <Footer/>
     </div>
   )
